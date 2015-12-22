@@ -5,6 +5,8 @@
       xmlns:ui="http://java.sun.com/jsf/facelets"
       xmlns:p="http://primefaces.org/ui">
 
+	<f:loadBundle basename="co.com.qabox.soainvportal.labels" var="msg"/>
+
     <h:head>
         <f:facet name="first">
             <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,7 +14,7 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
             <meta name="apple-mobile-web-app-capable" content="yes" />
         </f:facet>
-        <title>PrimeFaces Rio</title>
+        <title>QA Box </title>
         
         <h:outputScript name="js/ripple-effect.js" library="rio-layout" />
         <h:outputScript name="js/perfect-scrollbar.js" library="rio-layout" />
@@ -21,7 +23,7 @@
         <ui:insert name="head" />
     </h:head>
 
-    <h:body>
+	<h:body>
         
         <ui:include src="topbar.xhtml" />
         
